@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView penerima;
-    public static String Kontak = "Reply";
+    public static String KONTAK = "Reply";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,19 +20,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void CNTC1(View view){
         Intent page1 = new Intent(MainActivity.this, main_page2.class);
-        page1.putExtra(Kontak,"Udin");
+        page1.putExtra(KONTAK,"Udin");
         startActivity(page1);
     }
 
     public void CNTC2(View view){
         Intent page1 = new Intent(MainActivity.this, main_page2.class);
-        page1.putExtra(Kontak,"David");
+        page1.putExtra(KONTAK,"David");
         startActivity(page1);
     }
 
     public void CNTC3(View view){
         Intent page1 = new Intent(MainActivity.this, main_page2.class);
-        page1.putExtra(Kontak,"Yukie");
+        page1.putExtra(KONTAK,"Yukie");
         startActivity(page1);
     }
 }

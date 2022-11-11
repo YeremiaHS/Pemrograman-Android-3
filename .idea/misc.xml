@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/activity_penerima.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/activity_send.xml" value="0.33" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/main_page2.xml" value="0.1" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/main_page3.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/chat_yeremia/app/src/main/res/layout/main_page3.xml" value="0.1" />
       </map>
     </option>
   </component>
