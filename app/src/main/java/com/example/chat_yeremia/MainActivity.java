@@ -18,8 +18,21 @@ public class MainActivity extends AppCompatActivity {
         penerima = (TextView) findViewById(R.id.text_header);
     }
 
-    public void MYSON(View view){
-        Intent page1 = new Intent(MainActivity.this, hal2_utama.class);
-        page1.putExtra(Kontak,"MY SON");
+    public void CNTC1(View view){
+        Intent page1 = new Intent(MainActivity.this, main_page2.class);
+        page1.putExtra(Kontak,"Udin");
+        startActivity(page1);
+    }
+
+    public void CNTC2(View view){
+        Intent page1 = new Intent(MainActivity.this, main_page2.class);
+        page1.putExtra(Kontak,"David");
+        startActivity(page1);
+    }
+
+    public void CNTC3(View view){
+        Intent page1 = new Intent(MainActivity.this, main_page2.class);
+        page1.putExtra(Kontak,"Yukie");
+        startActivity(page1);
     }
 }

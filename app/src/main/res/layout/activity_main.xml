@@ -7,61 +7,66 @@
     android:background="@color/black_1"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@color/yellow_1"
-            android:drawableLeft="@drawable/icon_user"
-            android:fontFamily="sans-serif-condensed"
-            android:text="MR. Udin"
-            android:textSize="35dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="451dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="200dp"
+        android:background="@color/green_1"
+        android:drawableLeft="@drawable/icon_user"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Udin"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@color/yellow_1"
-            android:drawableLeft="@drawable/icon_user"
-            android:fontFamily="sans-serif-condensed"
-            android:text="MR. David"
-            android:textSize="35dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="355dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/green_1"
+        android:drawableLeft="@drawable/icon_user"
+        android:fontFamily="sans-serif-condensed"
+        android:text="David"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@color/yellow_1"
-            android:drawableLeft="@drawable/icon_user"
-            android:fontFamily="sans-serif-condensed"
-            android:text="MR. Yukie"
-            android:textSize="35dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="254dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:background="@color/green_1"
+        android:drawableLeft="@drawable/icon_user"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Yukie"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
-        <TextView
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:fontFamily="sans-serif-black"
-            android:text="CONTACT"
-            android:textColor="@color/yellow_1"
-            android:textSize="45dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="71dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="123dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:text="CONTACT"
+        android:textColor="@color/green_1"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
